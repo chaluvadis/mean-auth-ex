@@ -1,6 +1,6 @@
-## mean auth app
+## Mean Stack Example
 
-This is a simple mean stack application build from scratch
+This is a simple mean stack application build from scratch using MongoDB, Express, Angular CLI. and NodeJs.
 
 ### Steps to run the application
 #### Backend: 
