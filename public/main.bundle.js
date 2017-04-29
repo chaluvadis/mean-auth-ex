@@ -44,8 +44,8 @@ var ProfileComponent = (function () {
 ProfileComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-profile',
-        template: __webpack_require__(175),
-        styles: [__webpack_require__(167)]
+        template: __webpack_require__(174),
+        styles: [__webpack_require__(166)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_auth_service__["a" /* AuthService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_angular2_flash_messages__["FlashMessagesService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angular2_flash_messages__["FlashMessagesService"]) === "function" && _c || Object])
 ], ProfileComponent);
@@ -122,8 +122,8 @@ var RegisterComponent = (function () {
 RegisterComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-register',
-        template: __webpack_require__(176),
-        styles: [__webpack_require__(168)]
+        template: __webpack_require__(175),
+        styles: [__webpack_require__(167)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_validate_service__["a" /* ValidateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_validate_service__["a" /* ValidateService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__services_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_auth_service__["a" /* AuthService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* Router */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_flash_messages__["FlashMessagesService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_flash_messages__["FlashMessagesService"]) === "function" && _d || Object])
 ], RegisterComponent);
@@ -184,22 +184,17 @@ var _a, _b;
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: false
+    production: true
 };
-//# sourceMappingURL=environment.js.map
+//# sourceMappingURL=environment.prod.js.map
 
 /***/ }),
 
 /***/ 162:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)();
+exports = module.exports = __webpack_require__(12)();
 // imports
 
 
@@ -217,7 +212,7 @@ module.exports = module.exports.toString();
 /***/ 163:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)();
+exports = module.exports = __webpack_require__(12)();
 // imports
 
 
@@ -235,7 +230,7 @@ module.exports = module.exports.toString();
 /***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)();
+exports = module.exports = __webpack_require__(12)();
 // imports
 
 
@@ -253,7 +248,7 @@ module.exports = module.exports.toString();
 /***/ 165:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)();
+exports = module.exports = __webpack_require__(12)();
 // imports
 
 
@@ -271,7 +266,7 @@ module.exports = module.exports.toString();
 /***/ 166:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)();
+exports = module.exports = __webpack_require__(12)();
 // imports
 
 
@@ -289,7 +284,7 @@ module.exports = module.exports.toString();
 /***/ 167:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)();
+exports = module.exports = __webpack_require__(12)();
 // imports
 
 
@@ -304,21 +299,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 168:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 169:
+/***/ (function(module, exports) {
 
-exports = module.exports = __webpack_require__(10)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
+module.exports = "<app-navbar></app-navbar>\n<div class=\"container\">\n  <flash-messages></flash-messages>\n  <router-outlet></router-outlet>\n</div>\n  "
 
 /***/ }),
 
@@ -328,7 +312,7 @@ module.exports = module.exports.toString();
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(183);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(182);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_jwt__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_jwt___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_jwt__);
@@ -353,7 +337,7 @@ var AuthService = (function () {
         this.registerUser = function (user) {
             var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["Headers"]();
             headers.append('Content-Type', 'application/json');
-            return _this.http.post('http://localhost:1337/users/register', user, { headers: headers })
+            return _this.http.post('users/register', user, { headers: headers })
                 .map(function (res) { return res.json(); });
         };
         this.loggedIn = function () {
@@ -362,7 +346,7 @@ var AuthService = (function () {
         this.loginUser = function (user) {
             var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["Headers"]();
             headers.append('Content-Type', 'application/json');
-            return _this.http.post('http://localhost:1337/users/authenticate', user, { headers: headers })
+            return _this.http.post('users/authenticate', user, { headers: headers })
                 .map(function (res) { return res.json(); });
         };
         this.getUserProfile = function () {
@@ -370,7 +354,7 @@ var AuthService = (function () {
             _this.loadToken();
             headers.append('Content-Type', 'application/json');
             headers.append('Authorization', _this.authToken);
-            return _this.http.get('http://localhost:1337/users/profile', { headers: headers })
+            return _this.http.get('users/profile', { headers: headers })
                 .map(function (res) { return res.json(); });
         };
         this.storeUserData = function (token, user) {
@@ -405,53 +389,46 @@ var _a;
 /***/ 170:
 /***/ (function(module, exports) {
 
-module.exports = "<app-navbar></app-navbar>\n<div class=\"container\">\n  <flash-messages></flash-messages>\n  <router-outlet></router-outlet>\n</div>\n  "
+module.exports = "<h2 class=\"page-header\">\n  Dashboard\n</h2>\n<p>\n  Welcome to your dashboard\n</p>"
 
 /***/ }),
 
 /***/ 171:
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"page-header\">\n  Dashboard\n</h2>\n<p>\n  Welcome to your dashboard\n</p>"
+module.exports = "<div class=\"jumbotron text-center\">\n  <h1>Mean Auth App</h1>\n  <p class=\"lead\">\n    Welcome to Mean Auth App, build Using MongoDB, Express, Angular Cli and Node Js\n  </p>\n  <p>\n    <a [routerLink]=\"['/register']\" class=\"btn btn-primary btn-lg\">Register</a>\n    <a [routerLink]=\"['/login']\" class=\"btn btn-default btn-lg\">Login</a>\n  </p>\n</div>\n<div class=\"row\">\n  <div class=\"col-md-4\">\n    <h3>Express Backend</h3>\n    <p>\n      Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile\n      applications.\n    </p>\n  </div>\n  <div class=\"col-md-4\">\n    <h3>Angular CLI</h3>\n    <p>\n      The Angular CLI makes it easy to create an application that already works, right out of the box. It already follows our best\n      practices!\n    </p>\n  </div>\n  <div class=\"col-md-4\">\n    <h3>JWT Tokens</h3>\n    <p>\n      A Passport strategy for authenticating with a JSON Web Token. \n      This module lets you authenticate endpoints using a JSON web\n      token. It is intended to be used to secure RESTful endpoints without sessions.\n    </p>\n  </div>\n</div>"
 
 /***/ }),
 
 /***/ 172:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron text-center\">\n  <h1>Mean Auth App</h1>\n  <p class=\"lead\">\n    Welcome to Mean Auth App, build Using MongoDB, Express, Angular Cli and Node Js\n  </p>\n  <p>\n    <a [routerLink]=\"['/register']\" class=\"btn btn-primary btn-lg\">Register</a>\n    <a [routerLink]=\"['/login']\" class=\"btn btn-default btn-lg\">Login</a>\n  </p>\n</div>\n<div class=\"row\">\n  <div class=\"col-md-4\">\n    <h3>Express Backend</h3>\n    <p>\n      Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile\n      applications.\n    </p>\n  </div>\n  <div class=\"col-md-4\">\n    <h3>Angular CLI</h3>\n    <p>\n      The Angular CLI makes it easy to create an application that already works, right out of the box. It already follows our best\n      practices!\n    </p>\n  </div>\n  <div class=\"col-md-4\">\n    <h3>JWT Tokens</h3>\n    <p>\n      A Passport strategy for authenticating with a JSON Web Token. \n      This module lets you authenticate endpoints using a JSON web\n      token. It is intended to be used to secure RESTful endpoints without sessions.\n    </p>\n  </div>\n</div>"
+module.exports = "<form class=\"form-horizontal\" (submit)=\"onLoginSubmit()\">\n  <fieldset>\n    <legend>Login</legend>\n    <div class=\"form-group\">\n      <label for=\"inputUserName\" class=\"col-lg-2 control-label\">User Name</label>\n      <div class=\"col-lg-10\">\n        <input type=\"text\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control\" id=\"inputUserName\" placeholder=\"Enter Username\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputPassword\" class=\"col-lg-2 control-label\">Password</label>\n      <div class=\"col-lg-10\">\n        <input type=\"password\" [(ngModel)]=\"password\" name=\"password\" class=\"form-control\" id=\"inputPassword\" placeholder=\"Enter password\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <div class=\"col-lg-10 col-lg-offset-2\">\n        <button type=\"reset\" class=\"btn btn-default\">Cancel</button>\n        <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n      </div>\n    </div>\n  </fieldset>\n</form>"
 
 /***/ }),
 
 /***/ 173:
 /***/ (function(module, exports) {
 
-module.exports = "<form class=\"form-horizontal\" (submit)=\"onLoginSubmit()\">\n  <fieldset>\n    <legend>Login</legend>\n    <div class=\"form-group\">\n      <label for=\"inputUserName\" class=\"col-lg-2 control-label\">User Name</label>\n      <div class=\"col-lg-10\">\n        <input type=\"text\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control\" id=\"inputUserName\" placeholder=\"Enter Username\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputPassword\" class=\"col-lg-2 control-label\">Password</label>\n      <div class=\"col-lg-10\">\n        <input type=\"password\" [(ngModel)]=\"password\" name=\"password\" class=\"form-control\" id=\"inputPassword\" placeholder=\"Enter password\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <div class=\"col-lg-10 col-lg-offset-2\">\n        <button type=\"reset\" class=\"btn btn-default\">Cancel</button>\n        <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n      </div>\n    </div>\n  </fieldset>\n</form>"
+module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Mean Auth App</a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav navbar-left\">\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n          <a [routerLink]=\"['/']\">Home</a>\n        </li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/dashboard']\">Dashboard</a></li>\n        <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n        <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/login']\">Login</a></li>\n        <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/register']\">Register</a></li>\n        <li *ngIf=\"authService.loggedIn()\"><a href=\"#\" (click)=\"onLogoutClick()\">Logout</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>"
 
 /***/ }),
 
 /***/ 174:
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n        <span class=\"sr-only\">Toggle navigation</span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#\">Mean Auth App</a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      <ul class=\"nav navbar-nav navbar-left\">\n        <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\">\n          <a [routerLink]=\"['/']\">Home</a>\n        </li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/dashboard']\">Dashboard</a></li>\n        <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n        <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/login']\">Login</a></li>\n        <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions]=\"{exact:true}\"><a [routerLink]=\"['/register']\">Register</a></li>\n        <li *ngIf=\"authService.loggedIn()\"><a href=\"#\" (click)=\"onLogoutClick()\">Logout</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>"
+module.exports = "<div *ngIf=\"user\">\n  <h2 class=\"page-header\">\n    {{user.name}}\n  </h2>\n  <ul class=\"list-group\">\n    <li class=\"list-group-item\">\n      UserName : {{user.username}}\n    </li>\n    <li class=\"list-group-item\">\n      Email : {{user.email}}\n    </li>\n  </ul>\n</div>"
 
 /***/ }),
 
 /***/ 175:
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"user\">\n  <h2 class=\"page-header\">\n    {{user.name}}\n  </h2>\n  <ul class=\"list-group\">\n    <li class=\"list-group-item\">\n      UserName : {{user.username}}\n    </li>\n    <li class=\"list-group-item\">\n      Email : {{user.email}}\n    </li>\n  </ul>\n</div>"
-
-/***/ }),
-
-/***/ 176:
-/***/ (function(module, exports) {
-
 module.exports = "<form class=\"form-horizontal\" (submit)=\"onRegisterSubmit()\">\n  <fieldset>\n    <legend>Register</legend>\n    <div class=\"form-group\">\n      <label for=\"inputName\" class=\"col-lg-2 control-label\">Name</label>\n      <div class=\"col-lg-10\">\n        <input type=\"text\" [(ngModel)]=\"name\" name=\"name\" class=\"form-control\" id=\"inputName\" placeholder=\"Enter your name\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputUserName\" class=\"col-lg-2 control-label\">User Name</label>\n      <div class=\"col-lg-10\">\n        <input type=\"text\" [(ngModel)]=\"username\" name=\"username\" class=\"form-control\" id=\"inputUserName\" placeholder=\"Enter your username\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputEmail\" class=\"col-lg-2 control-label\">Email</label>\n      <div class=\"col-lg-10\">\n        <input type=\"email\" [(ngModel)]=\"email\" name=\"email\" class=\"form-control\" id=\"inputEmail\" placeholder=\"Enter email\">\n      </div>\n    </div>\n    <div class=\"form-group\">\n      <label for=\"inputPassword\" class=\"col-lg-2 control-label\">Password</label>\n      <div class=\"col-lg-10\">\n        <input type=\"password\" [(ngModel)]=\"password\" name=\"password\" class=\"form-control\" id=\"inputPassword\" placeholder=\"Enter password\">\n      </div>\n    </div>\n\n    <div class=\"form-group\">\n      <div class=\"col-lg-10 col-lg-offset-2\">\n        <button type=\"reset\" class=\"btn btn-default\">Cancel</button>\n        <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n      </div>\n    </div>\n  </fieldset>\n</form>"
 
 /***/ }),
 
-/***/ 213:
+/***/ 212:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(88);
@@ -531,12 +508,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment_prod__ = __webpack_require__(103);
 
 
 
 
-if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment_prod__["a" /* environment */].production) {
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
@@ -559,15 +536,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'app works!';
     }
     return AppComponent;
 }());
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-root',
-        template: __webpack_require__(170),
-        styles: [__webpack_require__(162)]
+        template: __webpack_require__(169)
     })
 ], AppComponent);
 
@@ -684,8 +659,8 @@ var DashboardComponent = (function () {
 DashboardComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-dashboard',
-        template: __webpack_require__(171),
-        styles: [__webpack_require__(163)]
+        template: __webpack_require__(170),
+        styles: [__webpack_require__(162)]
     }),
     __metadata("design:paramtypes", [])
 ], DashboardComponent);
@@ -720,8 +695,8 @@ var HomeComponent = (function () {
 HomeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-home',
-        template: __webpack_require__(172),
-        styles: [__webpack_require__(164)]
+        template: __webpack_require__(171),
+        styles: [__webpack_require__(163)]
     }),
     __metadata("design:paramtypes", [])
 ], HomeComponent);
@@ -792,8 +767,8 @@ var LoginComponent = (function () {
 LoginComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-login',
-        template: __webpack_require__(173),
-        styles: [__webpack_require__(165)]
+        template: __webpack_require__(172),
+        styles: [__webpack_require__(164)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_validate_service__["a" /* ValidateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_validate_service__["a" /* ValidateService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__services_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_auth_service__["a" /* AuthService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* Router */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_flash_messages__["FlashMessagesService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_flash_messages__["FlashMessagesService"]) === "function" && _d || Object])
 ], LoginComponent);
@@ -845,8 +820,8 @@ var NavbarComponent = (function () {
 NavbarComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-navbar',
-        template: __webpack_require__(174),
-        styles: [__webpack_require__(166)]
+        template: __webpack_require__(173),
+        styles: [__webpack_require__(165)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* AuthService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_auth_service__["a" /* AuthService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["b" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_flash_messages__["FlashMessagesService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_flash_messages__["FlashMessagesService"]) === "function" && _c || Object])
 ], NavbarComponent);
@@ -856,5 +831,5 @@ var _a, _b, _c;
 
 /***/ })
 
-},[213]);
+},[212]);
 //# sourceMappingURL=main.bundle.js.map

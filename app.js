@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(bodyParser.json());
 
-const port = 1337;
+const port = process.env.PORT || 1337;
 //index route
 app.get('/', (req, res) => {
     res.send('hello from express');
