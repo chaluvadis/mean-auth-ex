@@ -36,8 +36,7 @@ const port = 1337;
 app.get('/', (req, res) => {
     res.send('hello from express');
 });
-
 app.use('/users', users);
 app.listen(port, ()=> {
     console.log('app is listenning at ' + port);
-})
+});
