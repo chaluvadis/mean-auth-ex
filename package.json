@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/chaluvadis/mean-auth-ex/issues"
   },
-  "homepage": "https://github.com/chaluvadis/mean-auth-ex#readme"
+  "homepage": "https://github.com/chaluvadis/mean-auth-ex#readme",
+  "dependencies": {
+    "bcrypt": "1.0.2",
+    "body-parser": "1.17.1",
+    "cors": "2.8.3",
+    "express": "4.15.2",
+    "jsonwebtoken": "7.4.0",
+    "mongoose": "4.9.6",
+    "passport": "0.3.2",
+    "passport-jwt": "2.2.1"
+  }
 }
