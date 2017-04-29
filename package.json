@@ -1,0 +1,20 @@
+{
+  "name": "mean-auth-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaluvadis/mean-auth-ex.git"
+  },
+  "keywords": [],
+  "author": "Surendra Chaluvadi <surendra.chaluvadi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaluvadis/mean-auth-ex/issues"
+  },
+  "homepage": "https://github.com/chaluvadis/mean-auth-ex#readme"
+}
